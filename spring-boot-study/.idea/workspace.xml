@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3906a294-ecdb-433e-baef-c3f970baccf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/util/RandomUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/entity/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/entity/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/mapper/CourseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/mapper/CourseMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/CourseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/impl/CourseServiceImpl.java" afterDir="false" />
@@ -34,15 +36,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quickstart/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="17" column="74" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="50">
@@ -54,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="8" />
+            <state relative-caret-position="25">
+              <caret line="1" column="98" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="98" />
             </state>
           </provider>
         </entry>
@@ -63,8 +56,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/entity/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="-1053">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1015#1016#0" expanded="true" />
+                <element signature="e#1049#1050#0" expanded="true" />
+                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+                <element signature="e#1367#1368#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,10 +94,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/mapper/CourseMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="297">
+              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1275#1276#0" expanded="true" />
+                <element signature="e#1319#1320#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/CourseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="299">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/springboot/mybatis/service/impl/CourseServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="122">
+              <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#855#856#0" expanded="true" />
@@ -108,10 +144,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/util/RandomUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/impl/CourseServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="173">
+              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#276#277#0" expanded="true" />
@@ -120,34 +165,20 @@
                 <element signature="e#601#602#0" expanded="true" />
                 <element signature="e#683#684#0" expanded="true" />
                 <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#826#827#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#949#950#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/SpringBootMybatisApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="275">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -177,15 +208,16 @@
         <option value="$PROJECT_DIR$/quickstart/src/main/java/com/springboot/quickstart/dao/BookDAO.java" />
         <option value="$PROJECT_DIR$/quickstart/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/entity/Course.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/SpringBootMybatisApplication.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/CourseServie.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/entity/Course.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/util/RandomUtil.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/CourseService.java" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/impl/CourseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/springboot/mybatis/service/impl/CourseServiceImplTest.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/mapper/CourseMapper.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/impl/CourseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/springboot/mybatis/service/impl/CourseServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -221,7 +253,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="1" />
+    <option name="y" value="2" />
     <option name="width" value="1934" />
     <option name="height" value="1037" />
   </component>
@@ -258,61 +290,7 @@
               <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,7 +305,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552885576470" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552890480321" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -359,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootMybatisApplication">
+  <component name="RunManager" selected="JUnit.CourseServiceImplTest.update">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -422,6 +400,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CourseServiceImplTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.mybatis.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.mybatis.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.mybatis.service.impl.CourseServiceImplTest" />
+      <option name="METHOD_NAME" value="insert" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseServiceImplTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springboot.mybatis.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.springboot.mybatis.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.springboot.mybatis.service.impl.CourseServiceImplTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -463,6 +475,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CourseServiceImplTest.update" />
+        <item itemvalue="JUnit.CourseServiceImplTest.insert" />
         <item itemvalue="JUnit.CourseServiceImplTest.delete" />
         <item itemvalue="JUnit.CourseServiceImplTest.getOne" />
         <item itemvalue="JUnit.CourseServiceImplTest" />
@@ -480,7 +494,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552869016608</updated>
       <workItem from="1552869018079" duration="3846000" />
-      <workItem from="1552872966269" duration="7822000" />
+      <workItem from="1552872966269" duration="11711000" />
     </task>
     <task id="LOCAL-00001" summary="quickstart add module">
       <created>1552873051953</created>
@@ -496,37 +510,56 @@
       <option name="project" value="LOCAL" />
       <updated>1552877757789</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spring-boot-mybatis add module2">
+      <created>1552885695710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552885695710</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CourseServiceImplTest - 2019.03.18 at 10h 43m 18s.xml">
-      <configuration name="CourseServiceImplTest" configurationId="JUnit" />
+    <history-entry file="CourseServiceImplTest_insert - 2019.03.18 at 13h 53m 32s.xml">
+      <configuration name="CourseServiceImplTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CourseServiceImplTest_getOne - 2019.03.18 at 10h 50m 44s.xml">
-      <configuration name="CourseServiceImplTest.getOne" configurationId="JUnit" />
+    <history-entry file="CourseServiceImplTest_insert - 2019.03.18 at 13h 54m 36s.xml">
+      <configuration name="CourseServiceImplTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CourseServiceImplTest_delete - 2019.03.18 at 11h 21m 38s.xml">
-      <configuration name="CourseServiceImplTest.delete" configurationId="JUnit" />
+    <history-entry file="CourseServiceImplTest_insert - 2019.03.18 at 13h 56m 53s.xml">
+      <configuration name="CourseServiceImplTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CourseServiceImplTest_delete - 2019.03.18 at 11h 24m 29s.xml">
-      <configuration name="CourseServiceImplTest.delete" configurationId="JUnit" />
+    <history-entry file="CourseServiceImplTest_insert - 2019.03.18 at 13h 58m 52s.xml">
+      <configuration name="CourseServiceImplTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CourseServiceImplTest_delete - 2019.03.18 at 11h 27m 14s.xml">
-      <configuration name="CourseServiceImplTest.delete" configurationId="JUnit" />
+    <history-entry file="CourseServiceImplTest_insert - 2019.03.18 at 14h 04m 11s.xml">
+      <configuration name="CourseServiceImplTest.insert" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CourseServiceImplTest_delete - 2019.03.18 at 11h 41m 58s.xml">
-      <configuration name="CourseServiceImplTest.delete" configurationId="JUnit" />
+    <history-entry file="CourseServiceImplTest_insert - 2019.03.18 at 14h 04m 40s.xml">
+      <configuration name="CourseServiceImplTest.insert" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseServiceImplTest_update - 2019.03.18 at 14h 18m 39s.xml">
+      <configuration name="CourseServiceImplTest.update" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseServiceImplTest_update - 2019.03.18 at 14h 20m 21s.xml">
+      <configuration name="CourseServiceImplTest.update" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseServiceImplTest_update - 2019.03.18 at 14h 24m 01s.xml">
+      <configuration name="CourseServiceImplTest.update" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseServiceImplTest_update - 2019.03.18 at 14h 25m 04s.xml">
+      <configuration name="CourseServiceImplTest.update" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11668000" />
+    <option name="totallyTimeSpent" value="15557000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="1" width="1547" height="829" extended-state="0" />
+    <frame x="-6" y="2" width="1547" height="829" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25386167" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25386167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -536,8 +569,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33135214" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33135214" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39970282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -545,7 +578,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3288889" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32986626" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.3288889" />
@@ -567,7 +600,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="quickstart add module" />
     <MESSAGE value="spring-boot-mybatis add module" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-boot-mybatis add module" />
+    <MESSAGE value="spring-boot-mybatis add module2" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-boot-mybatis add module2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/quickstart/src/test/java/com/springboot/quickstart/QuickstartApplicationTests.java">
@@ -661,20 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/entity/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/springboot/mybatis/SpringBootMybatisApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -682,48 +702,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/springboot/mybatis/service/impl/CourseServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/SpringBootMybatisApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/CourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="275">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/impl/CourseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="173">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#276#277#0" expanded="true" />
@@ -732,24 +721,105 @@
             <element signature="e#601#602#0" expanded="true" />
             <element signature="e#683#684#0" expanded="true" />
             <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#949#950#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/util/RandomUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="98" selection-start-line="1" selection-start-column="98" selection-end-line="1" selection-end-column="98" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/mapper/CourseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="297">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/SpringBootMybatisApplication.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/entity/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="-1053">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1086#1087#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/service/CourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/springboot/mybatis/service/impl/CourseServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
