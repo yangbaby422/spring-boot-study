@@ -22,4 +22,9 @@ public class CourseServiceImpl implements CourseService {
     public Course getOne(long courseId) {
         return courseMapper.getOne(courseId);
     }
+
+    @Override
+    public void delete(long courseId) {
+        courseMapper.delete(courseId);
+    }
 }

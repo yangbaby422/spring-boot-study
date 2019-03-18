@@ -1,6 +1,7 @@
 package com.springboot.mybatis.mapper;
 
 import com.springboot.mybatis.entity.Course;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Result;
 import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
@@ -31,4 +32,7 @@ public interface CourseMapper {
     })
     @Select("SELECT * FROM t_course WHERE course_id = #{courseId} ")
     Course getOne(Long courseId);
+
+    @Delete("DELETE FROM t_course WHERE course_id = #{courseId} ")
+    void delete(Long courseId);
 }

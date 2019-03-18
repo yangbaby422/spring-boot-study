@@ -27,4 +27,8 @@ public class CourseServiceImplTest {
         Course course = courseService.getOne(1L);
         System.out.println(course);
     }
+    @Test
+    public void delete(){
+        courseService.delete(5L);
+    }
 }
