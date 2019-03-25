@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/upload/pom.xml" />
       </list>
     </option>
   </component>
