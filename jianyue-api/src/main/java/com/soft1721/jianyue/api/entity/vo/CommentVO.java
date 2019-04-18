@@ -20,19 +20,19 @@ public class CommentVO {
         this.id = id;
     }
 
-    public Integer getuId() {
+    public Integer getUId() {
         return uId;
     }
 
-    public void setuId(Integer uId) {
+    public void setUId(Integer uId) {
         this.uId = uId;
     }
 
-    public Integer getaId() {
+    public Integer getAId() {
         return aId;
     }
 
-    public void setaId(Integer aId) {
+    public void setAId(Integer aId) {
         this.aId = aId;
     }
 

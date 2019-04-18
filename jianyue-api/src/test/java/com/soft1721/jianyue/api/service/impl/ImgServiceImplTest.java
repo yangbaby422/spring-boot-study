@@ -22,6 +22,12 @@ public class ImgServiceImplTest {
     public void selectImgsByAId() throws Exception {
         List<Img> imgList = imgService.selectImgsByAId(1);
         imgList.forEach(img -> System.out.println(img));
-
+    }
+    @Test
+    public void insertImg() throws Exception{
+        Img img = new Img();
+        img.setAId(5);
+        img.setImgUrl("https://upload-images.jianshu.io/upload_images/14975877-38df7b3ea25e3ff0?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240");
+        imgService.insertImg(img);
     }
 }

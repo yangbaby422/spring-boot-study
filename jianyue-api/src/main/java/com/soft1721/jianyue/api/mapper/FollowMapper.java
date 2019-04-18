@@ -28,4 +28,5 @@ public interface FollowMapper {
 
     @Delete("DELETE  FROM t_follow WHERE from_uid = #{fromUId} AND to_uid = #{toUId} ")
     void deleteFollow(@Param("fromUId") int fromUId, @Param("toUId") int toUId);
+
 }

@@ -11,4 +11,6 @@ public class MsgConst {
     public static final String VERIFYCODE_FAILURE = "验证码失效";
     public static final String FOLLOWED = "已关注";
     public static final String NO_FOLLOWED = "未关注";
+    public static final String COLLECTED = "已收藏";
+    public static final String NO_COLLECTED = "未收藏";
 }

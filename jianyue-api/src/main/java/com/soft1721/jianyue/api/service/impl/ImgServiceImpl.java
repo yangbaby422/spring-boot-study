@@ -18,4 +18,9 @@ public class ImgServiceImpl implements ImgService {
         List<Img> imgs = imgMapper.selectImgsByAId(aId);
         return imgs;
     }
+
+    @Override
+    public void insertImg(Img img) {
+        imgMapper.insertImg(img);
+    }
 }

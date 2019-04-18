@@ -18,11 +18,11 @@ public class Article {
         this.id = id;
     }
 
-    public Integer getuId() {
+    public Integer getUId() {
         return uId;
     }
 
-    public void setuId(Integer uId) {
+    public void setUId(Integer uId) {
         this.uId = uId;
     }
 

@@ -13,11 +13,11 @@ public class Img {
         this.id = id;
     }
 
-    public Integer getaId() {
+    public Integer getAId() {
         return aId;
     }
 
-    public void setaId(Integer aId) {
+    public void setAId(Integer aId) {
         this.aId = aId;
     }
 

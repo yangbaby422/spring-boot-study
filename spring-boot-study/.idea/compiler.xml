@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="quickstart" />
         <module name="spring-boot-mybatis" />
+        <module name="spring-boot-websocket" />
         <module name="upload" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="quickstart" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
+      <module name="spring-boot-websocket" target="1.8" />
       <module name="upload" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="quickstart" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
+      <module name="spring-boot-websocket" options="-parameters" />
       <module name="upload" options="-parameters" />
     </option>
   </component>

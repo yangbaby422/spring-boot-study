@@ -2,48 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3906a294-ecdb-433e-baef-c3f970baccf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/config/WebMvcConfigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Img.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/ArticleVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/CommentVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/CommentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/ImgMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/CommentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/ImgService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/ImgServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/AliOSSTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/DaoJishi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/MsgConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/ResponseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/SMSUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/StatusConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/CommentServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/ImgServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/UserServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../soft1721" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/config/WebSocketConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/config/WebSocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/controller/WebSocketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/controller/FollowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Img.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/Img.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/CommentVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/entity/vo/CommentVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/ArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/FollowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/FollowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/ImgMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/mapper/ImgMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/ImgService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/ImgService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/ImgServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/service/impl/ImgServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/MsgConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/MsgConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/StatusConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/main/java/com/soft1721/jianyue/api/util/StatusConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/ArticleServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/FollowServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/FollowServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/ImgServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jianyue-api/src/test/java/com/soft1721/jianyue/api/service/impl/ImgServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/quickstart/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-mybatis/target/" />
     <ignored path="$PROJECT_DIR$/upload/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-websocket/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +88,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/CourseController.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/config/WebSocketConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="32">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,19 +100,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/UploadController.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/config/WebSocketServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/SpringBootMybatisApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="2525">
+              <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,104 +112,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/spring-boot-websocket/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="64" selection-start-line="2" selection-start-column="64" selection-end-line="2" selection-end-column="64" />
+            <state relative-caret-position="900">
+              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/entity/CourseVO.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/controller/WebSocketController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="550">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#836#837#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-                <element signature="e#1030#1031#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1272#1273#0" expanded="true" />
-                <element signature="e#1306#1307#0" expanded="true" />
-                <element signature="e#1337#1338#0" expanded="true" />
-                <element signature="e#1384#1385#0" expanded="true" />
-                <element signature="e#1424#1425#0" expanded="true" />
-                <element signature="e#1459#1460#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
-                <element signature="e#1538#1539#0" expanded="true" />
-                <element signature="e#1578#1579#0" expanded="true" />
-                <element signature="e#1611#1612#0" expanded="true" />
-                <element signature="e#1640#1641#0" expanded="true" />
-                <element signature="e#1684#1685#0" expanded="true" />
-                <element signature="e#1720#1721#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/WebsocketApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/mapper/CourseMapper.java">
+        <entry file="file://$PROJECT_DIR$/spring-boot-websocket/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/src/main/resources/templates/upload.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/src/main/resources/templates/upload_status.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/upload/src/main/java/com/springboot/upload/UploadApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="250">
+              <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -259,6 +204,12 @@
         <option value="$PROJECT_DIR$/upload/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/upload/src/main/java/com/springboot/upload/controller/UploadController.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/config/WebSocketServer.java" />
+        <option value="$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/controller/WebSocketController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/config/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/WebsocketApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-websocket/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -310,10 +261,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -324,83 +275,60 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-websocket" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -409,6 +337,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,7 +348,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553529229783" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555471493517" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -458,7 +387,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootMybatisApplication">
+  <component name="RunManager" selected="Spring Boot.WebsocketApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -584,6 +513,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebsocketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-websocket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.boot.websocket.WebsocketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -636,6 +572,9 @@
       <workItem from="1554082927328" duration="1250000" />
       <workItem from="1554692815302" duration="1867000" />
       <workItem from="1554705096201" duration="33000" />
+      <workItem from="1555307319206" duration="353000" />
+      <workItem from="1555460608301" duration="2618000" />
+      <workItem from="1555463671064" duration="2710000" />
     </task>
     <task id="LOCAL-00001" summary="quickstart add module">
       <created>1552873051953</created>
@@ -722,12 +661,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63465000" />
+    <option name="totallyTimeSpent" value="69146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-6" y="0" width="781" height="830" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.46749654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -737,7 +676,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24486804" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49846154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1252,11 +1191,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/mapper/CourseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
+        <state relative-caret-position="574">
           <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/cy543748493/FileStorage/File/2019-04/websocket/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="113" column="1" lean-forward="true" selection-start-line="2" selection-end-line="113" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/cy543748493/FileStorage/File/2019-04/websocket/WebSocketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/cy543748493/FileStorage/File/2019-04/websocket/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/config/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2525">
+          <caret line="112" column="1" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-websocket/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/config/WebSocketConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/controller/WebSocketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-websocket/src/main/java/com/boot/websocket/WebsocketApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-websocket/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
         </state>
       </provider>
     </entry>

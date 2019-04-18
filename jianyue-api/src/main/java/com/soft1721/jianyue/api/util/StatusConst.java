@@ -10,4 +10,6 @@ public class StatusConst {
     public static final int VERIFYCODE_FAILURE = 7;
     public static final int FOLLOWED = 8;
     public static final int NO_FOLLOWED = 9;
+    public static final int COLLECTED = 10;
+    public static final int NO_COLLECTED =11;
 }
